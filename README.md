@@ -115,3 +115,17 @@ How It Works
     Displaying the Map:
         Launches an interactive browser-based visualization using plotly.
         The map is displayed with default zoom and projection settings but can be interacted with for closer inspection.
+
+
+        # Earthquake Visualizer: Global Earthquake Data Mapping
+
+## Overview
+Earthquake Visualizer is a Python-based program that takes earthquake data from a GeoJSON file and displays it on an interactive world map. The program uses Plotly Express to create a scatter plot on a geographic projection, where each earthquake is represented by a point. The size and color of each point correspond to the magnitude of the earthquake, allowing users to quickly grasp the relative intensity and distribution of seismic activity globally.
+
+---
+
+## Features
+- Extracts earthquake data, including magnitude, latitude, longitude, and titles, from a GeoJSON file.
+- Displays an interactive map with earthquakes plotted based on their coordinates.
+- Uses color and size to indicate the magnitude of earthquakes.
+- Provides hover functionality for displaying the title of each earthquake.
